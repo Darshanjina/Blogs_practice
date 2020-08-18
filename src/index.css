@@ -1,13 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  scroll-behavior: smooth;
+}
+
+/* App.js */
+
+.master-holder{
+  padding: 20px 0px;
+  min-height: 100vh;
+}
+ 
+/* Header */
+
+.nav-logo{
+  font-family: 'Pacifico', cursive;
+  font-size: 35px;
+}
+
+.bg-grad{
+  /* background-image: linear-gradient(to right, #00b09b, #96c93d); */
+  background-image: linear-gradient(to right, #3a7bd5, #3a6073);
+}
+
+/* Footer */
+
+.foot{
+  z-index: 1;
+}
+
+.foot-logo{
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+
+.form-bg{
+  background-color: #eaeae8;
+}
+
+.foot-icon{
+  height: 58px;
+  width: 58px;
+  padding: 5px;
+  border-radius: 15%;
+  background-color: #eaeae8;
+}
+
+/* NewMessage */
+
+.form-bg{
+  background-color: #eaeae8;
+}
+
+/* PostCard */
+
+.post-img{
+  height: auto;
+  width: 75%;
+  border-radius: 50%;
+}
+
+.post-body{
+  padding: 30px;
+}
+
+/* User */
+
+.userprofile{
+  height: 150px;
+  width: 150px;
+}
+
+/* BacktoTop */
+
+.btx{
+  box-shadow: 0px 0px 5px black;
+  border-radius: 50%;
+}
+
+/* Loading */
+
+.loading{
+  height: auto;
+  width: 50%;
+  border-radius: 20px;
 }
