@@ -24,7 +24,7 @@ export default class Info extends Component {
               <i className="fa fa-github fa-fw mr-2"></i>
               <a
                 className="text-decoration-none text-secondary"
-                // href="https://github.com/karandas777/timeline"
+                href="https://github.com/Darshanjina/Blogs_practice"
               >
                 Client App.
               </a>
@@ -33,7 +33,7 @@ export default class Info extends Component {
               <i className="fa fa-github fa-fw mr-2"></i>
               <a
                 className="text-decoration-none text-secondary"
-                // href="https://github.com/karandas777/timeline-server"
+                href="https://github.com/Darshanjina/Blogs_practice-server"
               >
                 Server
               </a>
