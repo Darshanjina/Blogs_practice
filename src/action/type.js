@@ -4,4 +4,4 @@ export const UPDATE_POST = "UPDATE_POST";
 export const DELETE_POST = "DELETE_POST";
 export const GET_SORTED_POST = "GET_SORTED_POST";
 
-export const APIURL = "http://localhost:3000/api";
+export const APIURL = "https://blogs-practice-server.herokuapp.com/";
